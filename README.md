@@ -8,9 +8,7 @@ It contains only a simple new york time icon and after some seconds the NewsList
 When the user lands on the NewsList activity,
 a request is sent to the server along with the
 NewYorkTime API Key ,  and the response is shown 
-in the recycler view (which has news_list). 
-In case the server does not give a successful response, an error screen
-will become visible to the user and the recycler view will be gone.
+in the recycler view (which has news list). 
 The NewsList activity has a toolbar which has the drawer icon , search icon and option menu icon.
 if the user had selected item from the recyclerView , it will go on the detail activity.
 

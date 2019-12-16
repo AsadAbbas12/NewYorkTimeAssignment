@@ -20,8 +20,8 @@ and the detail of the news will be appear along with image and this image will b
 <img src="https://im.ezgif.com/tmp/ezgif-1-1a18413ef43b.gif" />
 
 # How to run the code
-1 - clone the link it will be given on the github repository   <br />
-2 - Or download the project and import project in android studio
+1 - clone the link it will be given on the github repository    <br />
+2 - Or download the project and import project in android studio <br />
 3 - Compile and run the code from android studio.
 
 

@@ -19,6 +19,9 @@ As the name suggests, this activity is launched when the user clicks on any news
 when the user comes to detail activity , the parcelable data object is recieve by the getIntent.
 and the detail of the news will be appear along with image and this image will be collapseable with toolbar. 
 
+<img src="https://im.ezgif.com/tmp/ezgif-1-1a18413ef43b.gif" />
+
+
 # Mockito Framework
 Enough about the great features of the app. 
 Let’s dive into the test cases written for NewsList activity.
@@ -52,3 +55,13 @@ Just goto the Repository class find method of loadNewsData <br />
 6 - after passing the test ,it will appear bottom to screen
 
 <a href="https://ibb.co/qj8mcyC"><img src="https://i.ibb.co/LRy9ckr/Screen-Shot-2019-12-16-at-4-07-00-PM.png" alt="Screen-Shot-2019-12-16-at-4-07-00-PM" border="0"></a>
+
+# How to generate code coverage report
+
+1 - Right click on the class of whom you want to generate the code coverage, like below
+
+<a href="https://ibb.co/m5yjHBN"><img src="https://i.ibb.co/KxsP9GK/Screen-Shot-2019-12-16-at-6-48-24-PM.png" alt="Screen-Shot-2019-12-16-at-6-48-24-PM" border="0"></a>
+
+2 -  click on the arrow to generate the code coverage report and you can generate as html file to view in the browser
+
+<a href="https://ibb.co/30d2ZLp"><img src="https://i.ibb.co/SKybC9t/Screen-Shot-2019-12-16-at-6-51-53-PM.png" alt="Screen-Shot-2019-12-16-at-6-51-53-PM" border="0"></a>

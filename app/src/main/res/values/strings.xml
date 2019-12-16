@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="lbl_filter">Filter</string>
+    <string name="heading">NY Times Most Popular</string>
+
+    <string name="app_name">NewYork Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connect_internet_message">Please connect your internet</string>
+</resources>

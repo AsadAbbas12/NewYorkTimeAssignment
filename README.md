@@ -17,7 +17,8 @@ As the name suggests, this activity is launched when the user clicks on any news
 when the user comes to detail activity , the parcelable data object is recieve by the getIntent.
 and the detail of the news will be appear along with image and this image will be collapseable with toolbar. 
 
-<img src="https://im.ezgif.com/tmp/ezgif-1-1a18413ef43b.gif" />
+<img src="https://im3.ezgif.com/tmp/ezgif-3-ea2220c9dd7b.gif" />
+
 
 # How to run the code
 1 - clone the link it will be given on the github repository    <br />

@@ -29,4 +29,6 @@ public class DetailActivityTest {
     public void setDetails() {
         doNothing().when(detailActivity).setDetails(detailActivity.resultsData);
     }
+
+
 }

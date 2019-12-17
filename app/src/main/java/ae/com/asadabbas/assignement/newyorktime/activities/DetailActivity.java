@@ -78,6 +78,7 @@ public class DetailActivity extends BaseActionBarActivity {
         }
     }
 
+
     public void setDetails(ResultsData resultsData) {
 
         String title = resultsData.getTitle();

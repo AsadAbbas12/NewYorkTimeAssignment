@@ -72,5 +72,7 @@ public class NewsRepositoryTest {
             String result_str = String.format("By Line: %s  ,Type %s News ", resultsData1.getByline(), resultsData1.getSection());
             System.out.println(result_str);
         }
+
+
     }
 }

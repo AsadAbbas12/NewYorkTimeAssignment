@@ -28,4 +28,6 @@ public class NewsListActivityTest {
     public void onClick() {
         doNothing().when(mainActivityTest).onClick();
     }
+
+
 }

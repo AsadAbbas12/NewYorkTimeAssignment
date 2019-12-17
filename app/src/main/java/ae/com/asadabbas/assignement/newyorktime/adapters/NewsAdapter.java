@@ -78,5 +78,4 @@ public class NewsAdapter extends RecyclerViewAdapter<ResultsData> {
             }
         }
     }
-
 }

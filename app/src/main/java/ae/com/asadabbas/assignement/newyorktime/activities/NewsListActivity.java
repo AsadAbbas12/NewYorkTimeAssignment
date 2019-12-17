@@ -99,6 +99,7 @@ public class NewsListActivity extends BaseActionBarActivity implements RecyclerV
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra(RESULT_OBJECT, (ResultsData) item);
         startActivity(intent);
+
     }
 
     @Override

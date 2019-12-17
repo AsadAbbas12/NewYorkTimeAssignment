@@ -16,17 +16,18 @@ import android.view.View;
 
 import java.util.List;
 
+import ae.com.asadabbas.assignement.newyorktime.App;
 import ae.com.asadabbas.assignement.newyorktime.R;
 import ae.com.asadabbas.assignement.newyorktime.adapters.NewsAdapter;
 import ae.com.asadabbas.assignement.newyorktime.base.BaseActionBarActivity;
-import ae.com.asadabbas.assignement.newyorktime.generic.RecyclerViewAdapter;
+import ae.com.asadabbas.assignement.newyorktime.generics.RecyclerViewAdapter;
 import ae.com.asadabbas.assignement.newyorktime.models.ResultsData;
 import ae.com.asadabbas.assignement.newyorktime.viewmodels.NewsViewModel;
 import butterknife.BindView;
 
 import static ae.com.asadabbas.assignement.newyorktime.util.Constant.RESULT_OBJECT;
 
-public class MainActivity extends BaseActionBarActivity implements RecyclerViewAdapter.OnViewHolderClick {
+public class NewsListActivity extends BaseActionBarActivity implements RecyclerViewAdapter.OnViewHolderClick {
 
     @BindView(R.id.news_recycler)
     RecyclerView mNewsRecycler;
@@ -65,6 +66,8 @@ public class MainActivity extends BaseActionBarActivity implements RecyclerViewA
     }
 
     public void init() {
+
+
         mToolbar.setNavigationIcon(R.drawable.drawer);
         setSupportActionBar(mToolbar);
         mNewsRecycler.setLayoutManager(new LinearLayoutManager(this));
@@ -80,7 +83,7 @@ public class MainActivity extends BaseActionBarActivity implements RecyclerViewA
         public void onChanged(@Nullable List<ResultsData> resultsData) {
             hideWaitDialog();
             // Update the UI
-            adapter.setClickListener(MainActivity.this);
+            adapter.setClickListener(NewsListActivity.this);
             adapter.setList(resultsData);
             mNewsRecycler.setAdapter(adapter);
         }

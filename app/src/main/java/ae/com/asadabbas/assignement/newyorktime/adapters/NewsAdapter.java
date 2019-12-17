@@ -1,9 +1,6 @@
 package ae.com.asadabbas.assignement.newyorktime.adapters;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +11,7 @@ import com.makeramen.roundedimageview.RoundedImageView;
 import java.util.List;
 
 import ae.com.asadabbas.assignement.newyorktime.R;
-import ae.com.asadabbas.assignement.newyorktime.generic.RecyclerViewAdapter;
+import ae.com.asadabbas.assignement.newyorktime.generics.RecyclerViewAdapter;
 import ae.com.asadabbas.assignement.newyorktime.models.MediaData;
 import ae.com.asadabbas.assignement.newyorktime.models.MediaMetaData;
 import ae.com.asadabbas.assignement.newyorktime.models.ResultsData;

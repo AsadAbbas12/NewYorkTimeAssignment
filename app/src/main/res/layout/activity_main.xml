@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="ae.com.asadabbas.assignement.newyorktime.activities.MainActivity">
+    tools:context="ae.com.asadabbas.assignement.newyorktime.activities.NewsListActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package ae.com.asadabbas.assignement.newyorktime.generic;
+package ae.com.asadabbas.assignement.newyorktime.generics;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

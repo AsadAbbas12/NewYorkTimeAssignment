@@ -37,7 +37,7 @@ dependencies {
 
     implementation 'org.mockito:mockito-core:2.8.9'
     //For accessing Test helpers to test LiveData
-    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation 'android.arch.core:core-testing:1.1.1'
 
     // RecyclerView
     compile 'com.android.support:recyclerview-v7:27.1.1'

@@ -33,7 +33,6 @@ public class DetailActivity extends BaseActionBarActivity {
     @BindView(R.id.abstraction)
     LightTextView mAbstraction;
 
-
     @Override
     public String actionBarTitle() {
         return null;
@@ -73,7 +72,6 @@ public class DetailActivity extends BaseActionBarActivity {
     void getExtra() {
 
         Bundle bundle = getIntent().getExtras();
-
         if (bundle != null) {
             resultsData = bundle.getParcelable(Constant.RESULT_OBJECT);
             setDetails(resultsData);

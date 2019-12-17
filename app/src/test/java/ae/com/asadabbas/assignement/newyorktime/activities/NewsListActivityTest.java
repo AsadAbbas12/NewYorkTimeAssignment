@@ -5,14 +5,13 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.doNothing;
 
-@RunWith(MockitoJUnitRunner.class)
-public class MainActivityTest {
+@RunWith(MockitoJUnitRunner.Silent.class)
+public class NewsListActivityTest {
 
     @Mock
-    MainActivityTest mainActivityTest;
+    NewsListActivityTest mainActivityTest;
 
     @Test
     public void subscribeObservers() {
